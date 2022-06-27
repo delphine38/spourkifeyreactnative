@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -9,8 +9,9 @@ export default class Header extends React.Component{
             <View style={styles.header}>
                 <Text style={styles.h1Your}>Your</Text>
                 <Text style={styles.h1Play}>Playlist</Text>
-            <StatusBar style="auto" />
+            {/* <StatusBar style="auto" /> */}
             </View>
+           
          );
     }
   
@@ -18,7 +19,6 @@ export default class Header extends React.Component{
 const styles = {
   header: {
     backgroundColor: '#1d072e',
-    // height: 100,
     marginTop:80,
     flex: 1,
     flexDirection: 'row',
