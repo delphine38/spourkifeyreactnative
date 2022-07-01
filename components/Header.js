@@ -20,21 +20,26 @@ const styles = {
   header: {
     backgroundColor: '#1d072e',
     marginTop:80,
-    flex: 1,
+    // flex: 1,
     flexDirection: 'row',
+    marginTop:30,
+    paddingTop:20,
+    paddingBottom:20,
+
+
     // alignItems: 'center',
     // justifyContent: 'center',
   },
 
   h1Your: {
     color: 'white',
-    // color: 'black',
+   backgroundColor: '#1d072e',
     marginLeft: 10,
   },
   h1Play: {
     color: 'yellow',
     marginLeft: 10,
-
+backgroundColor: '#1d072e',
   }
 };
 
