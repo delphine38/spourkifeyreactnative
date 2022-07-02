@@ -3,6 +3,8 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 
+import Nav from './Nav';
+
 // import ImageAccueil from './images/imageAccueil.jpg';
 // export default function Accueil() {
 export default class Accueil extends React.Component{
@@ -37,6 +39,8 @@ export default class Accueil extends React.Component{
                                 style={{width: 60, height:60}}  
                             />
                         </View>
+
+                        <Nav />
                     </View>
                  
                 <StatusBar style="auto" />
